@@ -1,0 +1,60 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	padding-top: 55px;
+	padding-bottom: 55px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand,
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'EB Garamond', serif;
+}
+
+.navbar-brand {
+	font-size: 1.8em;
+}
+
+.navbar-default {
+	background-color: #a7192f;
+	border: none;
+	color: white;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-text {
+	color: white;
+}
+
+.navbar,
+.navbar-toggle  {
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #a7192f;
+}
+
+.footer-text {
+	color: white;
+	text-align: right;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#logo {
+	height: 100px;
+	margin-top: 15px;
+}
