@@ -1,312 +1,63 @@
-/*
-*	CSS created by Ashton Charbonneau
-*	Best practices reference: https://github.com/csswizardry/CSS-Guidelines/
-*/
-
-
-/*			$CONTENTS
-*
-*		$$GENERAL
-*		$$VERTICAL CENTER
-*		$$HOME
-*		$$PAGE NOT FOUND - 404 ERROR
-*		$$MAIN
-*		$$RESPONSIVE
-*			$$$R-MAIN-MENU-1140
-*			$$$R-HOME-770
-*			$$$R-MAIN-MENU-770
-*			$$$R-MAIN-MENU-440
-*
-*/
-
-
-
-/*	------------------------
-*		$$GENERAL
-*	------------------------ */
-
-* {
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	overflow: auto;
-	transition: .5s;
-	-webkit-transition: .5s;
+html {
+	position: relative;
+	min-height: 100%;
 }
 
 body {
-	font-family: 'Roboto', 'segoe ui', sans-serif;
-	color: #555;
+	padding-top: 60px;
+	padding-bottom: 55px;
+	font-family: 'Open Sans', sans-serif;
 }
 
-a:link,
-a:visited {
-	color: #555;
+.navbar-brand,
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'EB Garamond', serif;
 }
 
-a:hover,
-a:active {
-	color: #7e7e7e;
+.navbar {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
+.navbar-brand {
+	font-size: 1.8em;
+}
 
+.navbar-default {
+	background-color: white;
+	border: none;
+}
 
+.navbar,
+.navbar-toggle  {
+	border-radius: 0px;
+}
 
-/*	------------------------
-*		$$VERTICAL CENTER
-*	------------------------ */
-
-#center-div1 {
-	display: table;
+.footer {
 	position: absolute;
-	height: 100%;
+	bottom: 0;
 	width: 100%;
+	height: 50px;
+	background-color: #a7192f;
 }
 
-#center-div2 {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-
-
-
-
-/*	------------------------
-*		$$HOME
-*	------------------------ */
-
-#home-container {
-	width: 90%;
-	max-width: 700px;
-	padding: 10px;
-	margin: 0 auto;
-}
-
-#home-content-left {
-	float: left;
-	width: 20%;
-	text-align: center;
-	}
-
-#home-content-right {
-	float: left;
-	padding: 10px;
-	width: 80%;
-	line-height: 1.35;
-	padding-left: 24px;
-}
-
-#home-content-right h1 {
-	margin-bottom: .25em;
-	font-size: 1.75em;
-}
-
-#home-content-right p {
-	font-size: 1.05em;
-}
-
-#home-footer-social {
-	float: right;
+.footer-text {
+	color: white;
 	text-align: right;
-	padding: 5px;
-	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
-#home-personal-photo {
-	width: 100%;
-	max-width: 250px;
-	border: 1px solid #000;
+#logo {
+	margin-top: -10px;
+	height: 42px;
 }
 
-
-
-
-
-/*	------------------------
-*		$$PAGE NOT FOUND - 404 ERROR
-*	------------------------ */
-
-#pnf-content {
-	text-align: center;
-	padding: 10px;
+.jumbotron {
+	color: white;
+	background-color: #a7192f;
 }
 
-#pnf-footer {
-	text-align: center;
-	padding: 10px;
-	font-size: 1.2em;
-}
-
-
-
-
-
-/*	------------------------
-*		$$MAIN
-*	------------------------ */
-
-#main-container {
-	width: 90%;
-	max-width: 1200px;
-	padding: 10px;
-	margin: 0 auto;
-}
-
-#main-header {
-	padding: 10px;
-	text-align: right;
-	margin-bottom: 10px;
-}
-
-#main-menu {
-	padding: 10px;
-	text-align: center;
-	margin-bottom: 10px;
-}
-
-#main-menu-list li {
-	display: inline-block;
-	width: 15%;
-}
-
-#main-menu-list a {
-	display: block;
-	padding: 5px;
-	margin: 5px;
-	background: #e5e5e5;
-	color: #555;
-	font-size: 1.3em;
-	border: 5px solid #e5e5e5;
-	text-decoration: none;
-}
-
-#main-menu-list a:hover {
-	background: #fff;
-	transform: translateY(-5px) translateZ(0);
-	-webkit-transform: translateY(-5px) translateZ(0);
-	-ms-transform: translateY(-5px) translateZ(0);
-}
-
-#main-menu-list .menu-selected {
-	background: #FFF;
-}
-
-#main-menu-list .menu-selected:hover {
-	transform: translateY(0) translateZ(0);
-	-webkit-transform: translateY(0) translateZ(0);
-	-ms-transform: translateY(0) translateZ(0);
-}
-
-#main-content {
-	padding: 20px;
-	margin-bottom: 10px;
-}
-
-#main-content h2 {
-	font-size: 1.3em;
-	margin-bottom: .2em;
-}
-
-#main-content p {
-	margin-bottom: .5em;
-}
-
-#main-content ul {
-	padding-left: 1em;
-}
-
-#main-footer {
-	padding: 10px;
-	text-align: center;
-}
-
-
-
-
-
-/*	------------------------
-*		$$RESPONSIVE
-*	------------------------ */
-
-@media screen and (max-width: 1140px) {
-
-	
-	
-	/*	----	$$$R-MAIN-MENU-1140	----	*/
-	#main-menu-list li {
-		width: 30%;
-		margin: 0;
-		margin-bottom: .25em;
-	}
-
-	#main-menu-list .menu-home:hover,
-	#main-menu-list .menu-webdesign:hover,
-	#main-menu-list .menu-photos:hover,
-	#main-menu-list .menu-model:hover,
-	#main-menu-list .menu-write:hover,
-	#main-menu-list .menu-projects:hover {
-		transform: translateY(0) translateZ(0);
-		-webkit-transform: translateY(0) translateZ(0);
-		-ms-transform: translateY(0) translateZ(0);
-	}
-	
-	#main-menu-list a {
-		margin: 3px;
-	}
-}
-
-@media screen and (max-width: 770px) {
-
-	
-	
-	/*	----	$$$R-HOME-770	----	*/
-	#home-content-left,
-	#home-content-right,
-	#home-footer-social {
-		display: inline-block;
-		width: 100%;
-	}
-
-	#home-content-left {
-		margin-bottom: 5%;
-	}
-
-	#home-content-right {
-		margin-bottom: 8%;
-		padding: 10px;
-	}
-
-	#home-content-right h1,
-	#home-footer-social {
-		text-align: center;
-		margin-bottom: 10px;
-	}
-
-	
-	
-	/*	----	$$$R-MAIN-MENU-770	----	*/
-	#main-menu-list li {
-		width: 45%;
-	}
-	
-	#main-menu-list a {
-		margin: 2px;
-	}
-}
-
-@media screen and (max-width: 440px) {
-
-	
-	
-	/*	----	$$$R-MAIN-MENU-440	----	*/
-	#main-menu-list li  {
-		width: 90%;
-	}
-	
-	#main-menu-list a {
-		margin: 1px;
-	}
+.jumbotron h1 {
+	margin-bottom: 20px;
 }
