@@ -12,6 +12,7 @@ $file_format = ".md"; //file type for pages
 $theme_location = $assets_location . "/default.min.css";
 $logo_location = $assets_location . "/logo.png";
 
+$favicon_location = $assets_location . "/favicon.png";
 $bootstrap_location = $assets_location . "/bootstrap.min.css";
 $bootstrapjs_location = $assets_location . "/bootstrap.min.js";
 $jquery_location = $assets_location . "/jquery.min.js";
@@ -52,6 +53,7 @@ else $content = file_get_contents(CONTENT_DIR .'404' . $file_format);
 		<link rel="stylesheet" type="text/css" href="<?php echo $bootstrap_location; ?>">
 		<link rel="stylesheet" type="text/css" href="<?php echo $theme_location; ?>">
 		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans'>
+		<link rel="shortcut icon" type="image/png" href="<?php echo $favicon_location ?>">
 	</head>
 	<body>
 		<header>
