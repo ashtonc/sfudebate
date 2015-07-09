@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	padding-top: 55px;
+	padding-top: 60px;
 	padding-bottom: 55px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-	margin-bottom: 0px;
+	margin-top: 5px;
 }
 
 .navbar-brand {
@@ -33,13 +33,17 @@ h1, h2, h3, h4, h5, h6 {
 	color: black;
 }
 
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+
 .navbar,
 .navbar-toggle  {
 	border-radius: 0px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: white;
+	background-color: black;
 }
 
 .footer {
@@ -58,7 +62,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #logo {
-	height: 30px;
+	margin-top: -10px;
+	height: 42px;
 }
 
 .jumbotron {
