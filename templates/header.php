@@ -7,7 +7,6 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href=""><?php echo $site_name; ?></a>
 			<a class="navbar-brand" href="<?php echo $site_address; ?>">
 				<img src="<?php echo $logo_location; ?>" alt="Logo" class="img-responsive" id="logo">
 			</a>
@@ -23,9 +22,9 @@
 			</ul>
 		</div>
 	</div>
-	<div class="jumbotron">
-		<div class="container">
-			<h1 class="text-center">SFU Debate Society</h1>
-		</div>
+</div>
+<div class="jumbotron">
+	<div class="container">
+		<h1 class="text-center">SFU Debate Society</h1>
 	</div>
 </div>
