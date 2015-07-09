@@ -1,7 +1,11 @@
 # SFU Debate
 
-Welcome to the website for the SFU Debate Society. We are a competitive club that represents SFU at debate competitions. We have competed in tournaments across North America.
+Welcome to the website for the SFU Debate Society. We are a competitive club that represents SFU at debate competitions in many different styles. We compete in tournaments across North America and host debate tournaments annually.
 
-## Meetings
+## Join
 
-Meetings are currently being held at SFU Harbor Center in room 2235 on Tuesdays and Fridays from 5:45-7:45. Teams are chosen at 5:45 and the round will begin at 6:00.
+If you would like to join our club, just stop by one of our meetings! Membership is completely free, and new debaters will be taught everything they need to know. You are welcome to observe as many debates as you would like debates before participating in one yourself.
+
+## Contact Us
+
+General inquires and questions may be emailed to [inquiries@sfudebate.ca](mailto:inquiries@sfudebate.ca). Feel free to also connect with us on [Twitter](https://twitter.com/sfudebate) or [Facebook](https://www.facebook.com/SFUDebateSociety).
