@@ -1,4 +1,3 @@
-<img src="<?php echo $logo_location; ?>" alt="Logo" class="center-block img-responsive" id="logo">
 <h3>Meetings</h3>
 <p>Meetings are currently being held from 17:45-19:45 on Tuesdays and Fridays at SFU Harbor Center in room 2235.</p>
 <h3>Recent Tweets</h3>

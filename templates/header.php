@@ -7,7 +7,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="<?php echo $site_address; ?>"><?php echo $site_name; ?></a>
+			<a class="navbar-brand" href=""><?php echo $site_name; ?></a>
+			<a class="navbar-brand" href="<?php echo $site_address; ?>">
+				<img src="<?php echo $logo_location; ?>" alt="Logo" class="img-responsive" id="logo">
+			</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -18,6 +21,11 @@
 				<li><a href="<?php echo $site_address; ?>/archives">Archives</a></li>
 				<li><a href="<?php echo $site_address; ?>/contact">Contact</a></li>
 			</ul>
+		</div>
+	</div>
+	<div class="jumbotron">
+		<div class="container">
+			<h1 class="text-center">SFU Debate Society</h1>
 		</div>
 	</div>
 </div>
