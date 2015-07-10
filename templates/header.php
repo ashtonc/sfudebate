@@ -13,6 +13,7 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
+				<li><a href="<?php echo $site_address; ?>/tournaments/2015shrugged">SFU Shrugged</a></li>
 				<li><a href="<?php echo $site_address; ?>/calendar">Calendar</a></li>
 				<li><a href="<?php echo $site_address; ?>/executive">Executive</a></li>
 				<li><a href="<?php echo $site_address; ?>/resources">Resources</a></li>
