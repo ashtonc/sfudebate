@@ -3,7 +3,7 @@ define('ROOT_DIR', realpath(dirname(__FILE__)) .'/');
 define('CONTENT_DIR', ROOT_DIR .'content/'); //content directory
 
 // Site and asset variables
-$site_address = "http://ashtonc.ca/debate";
+$site_address = "http://sfudebate.ca";
 $site_name = "SFU Debate Society";
 
 $assets_location = $site_address . "/assets";
@@ -54,6 +54,14 @@ else $content = file_get_contents(CONTENT_DIR .'404' . $file_format);
 		<link rel="stylesheet" type="text/css" href="<?php echo $theme_location; ?>">
 		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans'>
 		<link rel="shortcut icon" type="image/png" href="<?php echo $favicon_location ?>">
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-57158949-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 	</head>
 	<body>
 		<header>
