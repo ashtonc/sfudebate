@@ -48,6 +48,14 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 15px;
 }
 
+.footer a,
+.footer a:link,
+.footer a:visited,
+.footer a:active,
+.footer a:hover {
+	color: white;
+}
+
 #logo {
 	margin-top: -10px;
 	height: 42px;
