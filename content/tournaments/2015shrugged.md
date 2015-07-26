@@ -4,7 +4,7 @@ SFU is hosting a tournament! SFU Shrugged will be hosted in the Austral's format
 
 ## Tournament Information
 
-The tentative schedule for the tournament is as follows.
+The schedule for the tournament is as follows.
 
 <table class="table table-condensed">
 <thead>
@@ -45,6 +45,6 @@ The tentative schedule for the tournament is as follows.
 </tbody>
 </table>
 
-## Registration
+## Tabs
 
-Register for the tournament by [filling out this form](http://goo.gl/forms/NDdQx0HE4H). If you don't have a team, we'll try to find one for you!
+The tabs for the tournament can be found [here](../tabs/2015sfushrugged.pdf). Thanks to everyone who attended!
