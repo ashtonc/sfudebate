@@ -48,3 +48,25 @@ The schedule for the tournament is as follows.
 ## Tabs
 
 The tabs for the tournament can be found [here](../tabs/2015sfushrugged.pdf). Thanks to everyone who attended!
+
+## Motions
+
+### Round 1
+ * TH, being the National Review, would not cover Donald Trump’s presidential campaign.
+ * TH regrets McDonalds.
+ * THBT America should have an explicit industrial policy.
+
+### Round 2
+ * THBT futarchy is the way to go!
+ * THBT the European Union should adopt Esperanto as its official language.
+ * THBT the education system should not stream children according to their abilities from a young age.
+
+### Round 3
+ * TH, as Pakistan, would sell a nuclear weapon to Saudi Arabia if asked.
+ * TH regrets the Euro.
+ * THBT American liberals should no longer endorse a two state solution.
+
+### Round 4
+ * TH opposes language policing.
+ * THW not punish those who live below the poverty line for economic crimes.
+ * THW allow communities to vote to end police supervision.
