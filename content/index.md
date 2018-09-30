@@ -8,4 +8,4 @@ If you would like to join our club, just stop by one of our meetings! Membership
 
 ## Contact Us
 
-General inquires and questions may be emailed to [inquiries@sfudebate.ca](mailto:inquiries@sfudebate.ca). Feel free to also connect with us on [Twitter](https://twitter.com/sfudebate) or [Facebook](https://www.facebook.com/SFUDebateSociety).
+General inquires and questions may be emailed to [debate.sfu@gmail.com](mailto:debate.sfu@gmail.com). Feel free to also connect with us on [Facebook](https://www.facebook.com/SFUDebateSociety).

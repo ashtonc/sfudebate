@@ -1,5 +1,5 @@
 # Executive
 
- * **President:** Ashton Charbonneau
- * **Vice-President:** Rita Vityaz
- * **Training Director:** Gordon Welch
+ * **President:** 
+ * **Vice-President:** 
+ * **Training Director:** 
